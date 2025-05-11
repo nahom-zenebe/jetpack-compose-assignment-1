@@ -46,7 +46,7 @@ fun CourseCard(course: Course) {
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
 
-            // Title + Icon Row
+
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween
@@ -65,7 +65,7 @@ fun CourseCard(course: Course) {
 
             Spacer(modifier = Modifier.height(8.dp))
 
-            // Code + Credit Row
+
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween
